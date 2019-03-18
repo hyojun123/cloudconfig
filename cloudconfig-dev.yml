@@ -1,14 +1,11 @@
-spring :
+spring:
   profiles: stage
- greeting:"staging"
- 
+ greeting: "staging"
 ---
-spring :
+spring:
   profiles: dev
- greeting:"dev"
-
-
+ greeting: "dev"
 ---
-spring :
-  profiles: prod
- greeting:"prod"
+spring:
+  profiles:prod
+ greeting: "prod"
