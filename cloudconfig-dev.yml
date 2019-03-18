@@ -8,5 +8,5 @@ spring:
  greeting: "dev"
 ---
 spring:
-  profiles:prod
+  profiles: prod
  greeting: "prod"
