@@ -1,5 +1,3 @@
-greeting: "default"
----
 spring:
   profiles: stage
 greeting: "staging"
